@@ -1,0 +1,51 @@
+.todo__item-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 50px;
+  border-radius: 15px 10px 10px 15px;
+}
+
+.todo__item-name {
+  width: 30%;
+  height: 100%;
+
+  display: inline-block;
+  line-height: 50px;
+  box-sizing: border-box;
+
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: #fff;
+
+  transform: translateX(-3px);
+}
+
+.todo__item-title {
+  width: 70%;
+  height: 100%;
+
+  line-height: 50px;
+
+  margin: 0;
+}
+
+.remove-btn {
+  height: 100%;
+  padding: 10px;
+
+  color: #fff;
+  background-color: black;
+  cursor: pointer;
+
+  border-radius: 50% 0 0 50%;
+}
+
+.remove-btn:hover {
+  box-shadow: 0 0 15px black;
+}
+
+.remove-btn:active {
+  transform: scale(0.95);
+}
